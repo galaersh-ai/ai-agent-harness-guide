@@ -4,6 +4,8 @@
 
 Перевод-адаптация курса [Build Your Own AI Coding Agent Harness](https://vercel.com/academy/build-ai-agent-harness) от Vercel Academy (автор — Joel Hooks).
 
+> **⚠️ Примечание о правах:** Перевод выполнен в образовательных целях. Оригинальный контент принадлежит [Vercel](https://vercel.com). Если вы являетесь правообладателем и возражаете против перевода — свяжитесь с нами через [Issues](https://github.com/galaersh-ai/ai-agent-harness-guide/issues).
+
 ---
 
 ### О чём этот курс
