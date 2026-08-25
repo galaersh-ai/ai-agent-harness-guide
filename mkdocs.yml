@@ -1,0 +1,95 @@
+site_name: "Строим AI-кодинг агент"
+site_description: "Перевод курса Build Your Own AI Coding Agent Harness (Vercel Academy)"
+site_url: https://galaersh-ai.github.io/ai-agent-harness-guide/
+repo_url: https://github.com/galaersh-ai/ai-agent-harness-guide
+repo_name: galaersh-ai/ai-agent-harness-guide
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+
+nav:
+  - Главная: index.md
+  - Обзор 10 паттернов: overview.md
+  - Модуль 1 — Агент-лупа:
+    - "1a. От чата к агенту": 01-agent-loop/1a-from-chat-to-agent.md
+    - "1b. Твои первые инструменты": 01-agent-loop/1b-your-first-tools.md
+    - "1c. Завершаем набор инструментов": 01-agent-loop/1c-completing-the-toolbox.md
+  - Модуль 2 — Дизайн инструментов:
+    - "2a. Описания, которые работают": 02-tool-design/2a-descriptions-that-work.md
+    - "2b. Shell с безопасностью": 02-tool-design/2b-shell-execution-with-safety.md
+    - "2c. Шлюзы одобрения": 02-tool-design/2c-approval-gates.md
+  - Модуль 3 — Системный промпт:
+    - "3a. Структурирование инструкций": 03-system-prompt/3a-structuring-instructions.md
+    - "3b. Динамический промпт": 03-system-prompt/3b-dynamic-prompt.md
+    - "3c. Верификационные шлюзы": 03-system-prompt/3c-verification-gates.md
+    - "3d. Контекст проекта / AGENTS.md": 03-system-prompt/3d-project-context.md
+  - Модуль 4 — Песочница:
+    - "4a. Проектирование интерфейса": 04-sandbox/4a-designing-interface.md
+    - "4b. Локальная реализация": 04-sandbox/4b-local-implementation.md
+    - "4c. In-memory реализация": 04-sandbox/4c-in-memory.md
+    - "4d. Облачная реализация": 04-sandbox/4d-cloud.md
+    - "4e. Хуки жизненного цикла": 04-sandbox/4e-lifecycle-hooks.md
+  - Модуль 5 — Управление контекстом:
+    - "5a. Проблема: контекст": 05-context/5a-the-problem.md
+    - "5b. Обрезка старых результатов": 05-context/5b-pruning.md
+    - "5c. Дизайн вывода инструментов": 05-context/5c-tool-output-design.md
+    - "5d. Управление кешем": 05-context/5d-cache-control.md
+  - Модуль 6 — Субагенты:
+    - "6a. Почему делегировать": 06-subagents/6a-why-delegate.md
+    - "6b. Explorer-подагент": 06-subagents/6b-explorer.md
+    - "6c. Executor-подагент": 06-subagents/6c-executor.md
+    - "6d. Инструмент Task": 06-subagents/6d-task-tool.md
+  - Модуль 7 — Жизненный цикл:
+    - "7a. Конечный автомат": 07-lifecycle/7a-state-machine.md
+    - "7b. Снимок и восстановление": 07-lifecycle/7b-snapshot-restore.md
+    - "7c. Долговечные процессы": 07-lifecycle/7c-durable-workflows.md
+    - "7d. Добытые трудом уроки": 07-lifecycle/7d-hard-won-lessons.md
+  - Модуль 8 — Human-in-the-Loop:
+    - "8a. Структурированные вопросы": 08-human-in-loop/8a-structured-questions.md
+    - "8b. Конфигурация одобрения": 08-human-in-loop/8b-approval-config.md
+  - Модуль 9 — Планирование:
+    - "9a. Инструмент Todo": 09-planning/9a-todo-tool.md
+    - "9b. Быстрое понимание контекста": 09-planning/9b-fast-context.md
+    - "9c. Контракт верификации": 09-planning/9c-verification-contract.md
+  - Модуль 10 — Поверхности:
+    - "10a. Точка входа CLI": 10-surfaces/10a-cli-entry.md
+    - "10b. Стриминг и рендеринг": 10-surfaces/10b-streaming.md
+    - "10c. Веб-поверхность": 10-surfaces/10c-web-surface.md
+  - Модуль 11 — Расширяемость:
+    - "11a. Система навыков": 11-extensibility/11a-skills.md
+    - "11b. Пользовательские инструменты": 11-extensibility/11b-custom-tools.md
+    - "11c. Точки расширения": 11-extensibility/11c-extension-points.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
