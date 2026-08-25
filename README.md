@@ -1077,3 +1077,10 @@ provisioning → active → hibernating → hibernated
 ---
 
 *Перевод и адаптация: [galaersh-ai](https://github.com/galaersh-ai). Оригинальный контент — Vercel Academy, Joel Hooks.*
+
+---
+
+## Все 38 уроков
+
+Полные переводы-адаптации всех уроков курса с кодом и переводами промтов: **[docs/README.md](docs/README.md)**
+
