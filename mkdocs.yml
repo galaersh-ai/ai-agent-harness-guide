@@ -6,6 +6,7 @@ repo_name: galaersh-ai/ai-agent-harness-guide
 
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   palette:
     - scheme: default
@@ -80,6 +81,9 @@ nav:
     - "11a. Система навыков": 11-extensibility/11a-skills.md
     - "11b. Пользовательские инструменты": 11-extensibility/11b-custom-tools.md
     - "11c. Точки расширения": 11-extensibility/11c-extension-points.md
+
+extra_javascript:
+  - javascripts/metrika.js
 
 markdown_extensions:
   - admonition
